@@ -1,0 +1,37 @@
+# Arquivos de build
+build/
+dist/
+out/
+.DS_Store
+
+# Dependências (node_modules)
+node_modules/
+
+# Arquivo de cache do npm
+.npm
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de ambiente local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de cache IDE
+.idea/
+
+# Arquivos de configuração Visual Studio Code
+.vscode/
+
+# Arquivos de configuração do WebStorm
+.idea/
+*.iml
+
+# Arquivos temporários
+*.swp
+*.swo
