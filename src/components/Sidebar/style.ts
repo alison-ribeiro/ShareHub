@@ -6,13 +6,11 @@ import menuVisibleState from "../../types/sidebar";
 export const Container = styled.aside<menuVisibleState>`
     display: flex;
     position: relative;
-    top:0; 
-    bottom: 0;
     flex-direction: column;
-    height: 100%;
     width: ${(props) => (props.bool ? '100px' : '250px')};
     background-color: ${theme.background.paper};
     border-radius: ${theme.borderRadius.regular};
+    
     
     .hidden{
         display: ${(props) => (props.bool ? 'none' : 'flex')};
@@ -105,7 +103,9 @@ export const MenuHeader = styled.div`
 `
 
 export const MenuFooter = styled.div`
-    
+    ul{
+        padding: 0;
+    }
     
 
     

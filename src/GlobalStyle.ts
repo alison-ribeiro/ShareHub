@@ -24,7 +24,9 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
   }
-
+  input{
+    all: initial;
+  }
   /* Tamanho padrão do link não sublinhado */
   a {
     text-decoration: none;

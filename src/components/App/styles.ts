@@ -11,6 +11,7 @@ export const Container = styled.div`
 `
 export const ContainerMainContent = styled.div`
     border-left: 1px solid ${theme.background.default};
+    flex: 1;
 `;
 
 
